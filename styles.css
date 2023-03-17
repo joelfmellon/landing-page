@@ -1,0 +1,182 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: flex-end;   
+    width: 100%;
+}
+
+nav {
+    padding-bottom: 5px;
+    display: flex;
+    
+}
+
+.logo {
+    position: absolute;
+    left: 15px;
+    padding: 5px;
+}
+
+li {
+    margin: 0;
+    list-style-type: none;
+    padding: 5px;
+}
+
+a {
+    color:#f2f5ef;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.toplink a:hover {
+    color: #856830;
+}   
+
+img {
+    max-width: auto;
+    max-height: 500px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    text-align: left;
+    margin-right: 50px;
+    color: #f2f5ef;
+    font-size: 18px;
+
+}
+
+button {
+    border-radius: 8px;
+    max-width: 130px;
+    height: 3vh;
+    background-color: #3882F6;
+    color: #f2f5ef;
+    font-size: 16px;
+    outline: none;
+    
+}
+
+h1 {
+    color: #f2f5ef;
+    font-weight: extra-bold;
+    font-size: 48px;
+   
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+   font-weight: extra-bold;
+   color: #1f2937;
+   padding-top: 50px;
+}
+
+#information {
+   padding-top: 50px;
+   gap: 100px;
+   display: flex;
+   
+   justify-content: center;
+   flex-wrap: wrap;
+   
+}
+
+#information img {
+    max-width: auto;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+#information .informationcards {
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    padding: 50px 300px 50px;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 24px;
+    display: block;
+}
+
+.whatsaid {
+    font-weight: italic;
+    color: #1F2937;
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.whosaid {
+   
+    font-size: 18px;
+   align-self: flex-end;
+    
+}
+
+.action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 550px;
+    border-radius: 8px;
+    color: #F9FAF8;
+
+}
+
+.actionmain {
+    font-weight: bolder;
+    text-align: left;
+}
+
+.actionsub {
+    font-weight: lighter;
+    text-align: left
+}
+
+footer {
+   background-color: #1F2937; 
+   color: #E5E7EB;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
