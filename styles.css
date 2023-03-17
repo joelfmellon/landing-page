@@ -19,6 +19,7 @@ header {
     display: flex;
     justify-content: flex-end;   
     width: 100%;
+    border-bottom: 3px solid #f2f5ef;
 }
 
 nav {
@@ -63,6 +64,7 @@ img {
     justify-content: center;
     align-items: center;
     padding: 90px;
+    border-bottom: 3px solid #f2f5ef;
 }
 
 .hero-text {
@@ -80,11 +82,19 @@ button {
     border-radius: 8px;
     max-width: 130px;
     height: 3vh;
-    background-color: #4D4D4D;
+    background-color: #000000;
     color: #f2f5ef;
     font-size: 16px;
     outline: none;
+    border: 2px solid #f2f5ef
     
+}
+
+button:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
 }
 
 h1 {
@@ -126,6 +136,7 @@ h2 {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-bottom: 50px;
     
 }
 
@@ -137,6 +148,8 @@ h2 {
     font-size: 24px;
     display: block;
     color: #f2f5ef;
+    border-bottom: 3px solid #f2f5ef;
+    border-top: 3px solid #f2f5ef
 }
 
 .whatsaid {
@@ -157,13 +170,14 @@ h2 {
 }
 
 .action {
-    background-color: #4D4D4D;
+    background-color: ##000000;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 40px 550px;
     border-radius: 8px;
     color: #F9FAF8;
+    border: 3px solid #f2f5ef
 
 }
 
