@@ -148,8 +148,8 @@ h2 {
     font-size: 24px;
     display: block;
     color: #f2f5ef;
-    border-bottom: 3px solid #f2f5ef;
-    border-top: 3px solid #f2f5ef
+    border-bottom: 5px solid #f2f5ef;
+    border-top: 5px solid #f2f5ef
 }
 
 .whatsaid {
@@ -165,7 +165,8 @@ h2 {
 .whosaid {
    
     font-size: 18px;
-   align-self: flex-end;
+    padding: 10px;
+    text-align: left;
     
 }
 
